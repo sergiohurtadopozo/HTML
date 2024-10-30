@@ -1,0 +1,91 @@
+<link rel="stylesheet" href="./styles.css" />
+
+  
+<div class="fondo_b">
+<custom-search>
+  <div class="flex p-10 shadow-md min-h-60px">
+    <button class="menu-toggle transparent">≡</button>
+    <aside class="menu-sidebar">
+      <ul>
+        <li><a href="indux.html">Home</a></li>
+        <li>News</li>
+        <li>Business</li>
+        <li><a href="sports.html">Sports</a></li>
+      </ul>
+    </aside>
+    <span class="logo">
+      <span class="logo-item">B</span>
+      <span class="logo-item">B</span>
+      <span class="logo-item">C</span>
+    </span>
+    <button class="dialog-search transparent">🔍</button>
+  </div>
+  <dialog>
+    <button class="close-btn">🗙</button>
+    <h1>Search</h1>
+    <input type="search" id="site-search" name="q" />
+
+    <template>
+      <li>
+        <div class="flex flex-col items-center card">
+          <img class="object-cover item-image" src="https://flowbite.com/docs/images/blog/image-4.jpg">
+          <div class="flex flex-col justify-between">
+            <h5 class="item-title">
+              <a href="article.html?id={id}">
+                {value}
+              </a>
+            </h5>
+            <p class="item-description">Here are the biggest enterprise technology acquisitions of 2021 so far, in
+              reverse chronological order.
+            </p>
+            <relative-time time="Wed Oct 16 2024 11:12:41 GMT+0200" />
+          </div>
+        </div>
+      </li>
+    </template>
+
+    <ul id="search-results">
+    </ul>
+  </dialog>
+</custom-search>
+
+<div class="temas">
+  <a href="indux.html">Home</a>
+  <a href="News.html">News</a>
+  <a href="#">US Elections</a>
+  <a href="sports.html">Sports</a>
+  <a href="Business.html">Business</a>
+  <a href="#">Innovation</a>
+  <a href="#">Culture</a>
+  <a href="#">Arts</a>
+  <a href="#">Video</a>
+  <a href="#">Live</a>
+</div>
+
+<div class="grid-container">
+  
+  <div class="grid-item text-left">
+    <img src="https://fortune.com/img-assets/wp-content/uploads/2024/10/GettyImages-2170862982_413c33-e1729160290535.jpg" alt="Business News Image 1" />
+    <h1 class="title">
+      <a href="article.html?id=4">Musk’s empire risks being targeted by EU for potential X fines</a>
+    </h1>
+    <p class="description">Financial markets experience significant volatility due to ongoing economic uncertainties, as investors anticipate policy changes from major central banks. Analysts forecast impacts on various sectors...</p>
+  </div>
+  <div class="grid-item text-left">
+    <img src="https://cdn.who.int/media/images/default-source/mca/mca-covid-19/coronavirus-2.tmb-1920v.jpg?sfvrsn=4dba955c_19" alt="Business News Image 2" />
+    <h1 class="title">
+      <a href="article.html?id=5">Small Businesses Adapting in Post-COVID Era</a>
+    </h1>
+    <p class="description">As global tech regulations tighten, major corporations are reassessing compliance strategies to avoid penalties. The new laws focus on user privacy, data security, and ethical AI implementation...</p>
+  </div>
+  <div class="grid-item text-left">
+    <img src="https://media.licdn.com/dms/image/D5612AQE8xkdFEHzX6A/article-cover_image-shrink_720_1280/0/1688719236067?e=2147483647&v=beta&t=yq-fRLV2Da1YTPRQLH6Q7kevDBsnRtn1JDnV9piHnUg" alt="Business News Image 3" />
+    <h1 class="title">
+      <a href="article.html?id=6">Emerging Markets Show Resilience in Global Slowdown</a>
+    </h1>
+    <p class="description">While developed economies struggle with recession fears, emerging markets exhibit resilience through innovative business strategies and adaptive growth. This shift in the economic landscape brings new opportunities...</p>
+  </div>
+</div>
+
+</div>
+<script src="main.js"></script>
